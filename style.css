@@ -46,6 +46,7 @@ body {
 }
 
 .signup-interaction {
+    padding: 2rem;
     display: flex;
     flex: auto;
     box-shadow: 0px 5px #000000;
@@ -79,4 +80,15 @@ body {
 footer {
     margin-top: 3rem;
     flex: auto;
+    padding: 2rem;
+}
+
+#submit-form-button {
+    background-color: #596d48;
+    color: #ffffff
+}
+
+#login-link {
+    color:#596d48;
+    text-decoration: none;
 }
