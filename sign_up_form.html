@@ -12,15 +12,35 @@
             
         </div>
         <div class="sign-up-container">
-            <fieldset><div class="first-name-input-container">
-                <label for="first-name">firstname</label>
-                <input type="text" name="first-name" id="first-name" required>
-                <label for="second-name">LAST NAME</label>
-                <input type="text" name="second-name" id="second-name" required>
+            <div class="signup-interaction">
+                <form action="https://httpbin.org/post" method="post">
+                    
+                    <fieldset id="signup-fieldset">
+                        <legend>Let's do this!</legend>
+                        <div class="left-side-signup">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                            <label for="email-address">EMAIL</label>
+                            <input type="email" name="emai-address" id="email-field">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password-field">
+                        </div>
+                        <div class="right-side-signup">
+                            <label for="second-name">LAST NAME</label>
+                            <input type="text" name="second-name" id="second-name" required>
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="number" name="phone-no" id="phone-no">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                        </fieldset>
+            </div>
+                
+            <footer>
+                <button type="submit">Create Account</button>
+            </form>
+            </footer>
         </div>
-            </fieldset>
-        </div>
-
     </div>
     
 </body>

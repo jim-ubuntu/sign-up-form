@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Alfaslab";
+    src: url(AlfaSlabOne-Regular.ttf);
+}
+
+:root {
+    font-family: "Alfaslab";
+}
+
 .main-container {
     display: flex;
 }
@@ -12,7 +21,23 @@
     height: 100vh;
 }
 
-.first-name-input-container {
-    /* display: flex; */
-    /* flex-direction: column; */
+
+.signup-interaction {
+    display: flex;
 }
+
+#signup-fieldset {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side-signup {
+    display:flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.right-side-signup {
+    display: flex;
+    flex-direction: column;
+} 
