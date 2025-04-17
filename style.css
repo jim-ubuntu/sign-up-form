@@ -4,9 +4,12 @@
 }
 
 :root {
-    font-family: "Alfaslab";
+    /* font-family: "Alfaslab"; */
 }
 
+body {
+    margin: 0;
+}
 .main-container {
     display: flex;
 }
@@ -14,30 +17,66 @@
 .margin-container {
     width: 40vw;
     height: 100vh;
+    background-image: url(fern\ background.jpg);
 }
 
 .sign-up-container {
     width: 60vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
+.header-container {
+    background-color: #f9fafb;
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.paragraph-container {
+    margin-top: 50px;
+    padding: 2rem;
+}
+
+.persuasion-text{
+    margin-top: 1.5rem;
+}
 
 .signup-interaction {
     display: flex;
+    flex: auto;
+    box-shadow: 0px 5px #000000;
+
 }
 
 #signup-fieldset {
+    border: none;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.field-control-container {
+    display:flex;
 }
 
 .left-side-signup {
     display:flex;
     flex-direction: column;
     margin-right: 50px;
+    height: 150px;
 }
 
 .right-side-signup {
     display: flex;
     flex-direction: column;
+    height: 150px;
 } 
+
+footer {
+    margin-top: 3rem;
+    flex: auto;
+}

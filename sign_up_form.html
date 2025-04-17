@@ -12,32 +12,51 @@
             
         </div>
         <div class="sign-up-container">
-            <div class="signup-interaction">
+            <header class="header-container">
+                <div class="paragraph-container">
+                    This is not a real online service! You know you need something
+        like this in your life to help you realize your deepest dreams. 
+        Sign up <em>now</em> to get started.
+        
+        <div class="persuasion-text">You <em>know</em> you want to.</div>
+                </div>
+                <div class="instruction-container"></div>
+            </header>
+            <main class="signup-interaction">
                 <form action="https://httpbin.org/post" method="post">
                     
                     <fieldset id="signup-fieldset">
-                        <legend>Let's do this!</legend>
-                        <div class="left-side-signup">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name" required>
-                            <label for="email-address">EMAIL</label>
-                            <input type="email" name="emai-address" id="email-field">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password-field">
-                        </div>
-                        <div class="right-side-signup">
-                            <label for="second-name">LAST NAME</label>
-                            <input type="text" name="second-name" id="second-name" required>
-                            <label for="number">PHONE NUMBER</label>
-                            <input type="number" name="phone-no" id="phone-no">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm-password" id="confirm-password">
+                        <!-- <legend>Let's do this!</legend> -->
+                        <p>Let's do this!</p>
+                        <div class="field-control-container">
+                            <div class="left-side-signup">
+                            
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" required>
+                                <label for="email-address">EMAIL</label>
+                                <input type="email" name="emai-address" id="email-field">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password-field">
+                            </div>
+                            <div class="right-side-signup">
+                                <label for="second-name">LAST NAME</label>
+                                <input type="text" name="second-name" id="second-name" required>
+                                <label for="number">PHONE NUMBER</label>
+                                <input type="number" name="phone-no" id="phone-no">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirm-password" id="confirm-password">
+                            </div>
                         </div>
                         </fieldset>
-            </div>
+                    </main>
                 
             <footer>
-                <button type="submit">Create Account</button>
+                <div class="button-container">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="already-have-account">
+                    <p>Already have an account? <a href="http://" id="login-link">Log in.</a></p>
+                </div>
             </form>
             </footer>
         </div>
