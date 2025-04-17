@@ -1,10 +1,17 @@
 @font-face {
     font-family: "Atomicage";
     src: url(AtomicAge-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "play-regular";
+    src: url("Play-Regular.ttf")
+
 }
 
 :root {
-    font-family: "system-ui", "Atomicage";
+    font-family: "play-regular", "system-ui", "Atomicage";
 }
 
 body {
@@ -14,12 +21,6 @@ body {
 #odin-text {
     color: #f9fafb;
 
-}
-
-.banner {
-    background-color: black 0.2;
-    display: flex;
-    
 }
 
 #odin-logo {
@@ -32,15 +33,37 @@ body {
 }
 
 .margin-container {
-    width: 40vw;
+    position: relative;
+    width: 30vw;
     height: 100vh;
     background-image: url(fern\ background.jpg);
     background-size: 40vw 100vh;
     display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    position: relative;
+    margin-top: 11rem;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    
+}
+
+img#odin-logo {
+    width: 4.5rem;
+    height: 5rem;
+}
+
+.margin-title-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .sign-up-container {
-    width: 60vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
