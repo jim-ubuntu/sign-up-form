@@ -142,6 +142,10 @@ footer {
 }
 
 #submit-form-button:focus{
+    background-color: #cbcfc7;
+}
+
+#submit-form-button:hover {
     background-color: #bdcab2;
 }
 
@@ -161,19 +165,24 @@ footer {
 
  #password-field:invalid {
     border: solid red;
-    border-radius: 5px;
+    border-radius: .6rem;
 }
  #confirm-password-field:invalid {
     border: solid red;
-    border-radius: 5px;
+    border-radius: .6rem;
 }
 
-input#signup-fieldset:focus {
+#signup-fieldset:focus {
     border: solid yellow;
-    border-radius: 5px;
+    border-radius: .6rem;
 }
 
 input {
     border: solid rgba(0, 0, 0, .2);
+    border-radius: .6rem;
+}
+
+#signup-fieldset:focus {
+    border: solid yellow;
     border-radius: .6rem;
 }
